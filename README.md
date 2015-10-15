@@ -1,2 +1,2 @@
 # Manual Github
-Dicas úteis para utilização no dia a dia utilizando o Git e o Github.
+Manual com comandos para utilização do Git no dia a dia.
