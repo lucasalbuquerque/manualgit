@@ -1,2 +1,3 @@
-# Manual Git
-Comandos para utilização do Git no dia a dia.
+# Guia de referência - Git
+
+Guia rápido explicando comandos do Git. 
