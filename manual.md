@@ -1,88 +1,85 @@
 Configurando user name:
 
-git config --global user.name "Lucas Albuquerque"
+- git config --global user.name "Lucas Albuquerque"
 
 Configurando e-mail:
 
-git config --global user.mail "lucastableless@gmail.com"
+- git config --global user.mail "lucastableless@gmail.com"
 
 Após entrar na pasta do futuro repositório..
 
-git init - inicia um repositório na pasta
+- git init - inicia um repositório na pasta
 
-git add nomedoarquivo.txt - adiciona arquivo ao controle de versão
+- git add nomedoarquivo.txt - adiciona arquivo ao controle de versão
 
-git status - situação de trabalho atual do repositório
+- git status - situação de trabalho atual do repositório
 
-git add * adiciona todos os arquivos com extensão
+- git add * adiciona todos os arquivos com extensão
 
-git add . adiciona tudo
+- git add . adiciona tudo
 
 Fazendo commit:
-git commit -m "Mensagem do commit" 
+- git commit -m "Mensagem do commit" 
 
 Ignorar arquivos: criar arquivo .gitignore 
 
-git diff - ver o que foi alterado no arquivo
+- git diff - ver o que foi alterado no arquivo
 
-git log - mostra todos os commits que você fez no seu projeto, desde o inicio
+- git log - mostra todos os commits que você fez no seu projeto, desde o inicio
 
-git log -p - todos os commits em ordem decrescente
+- git log -p - todos os commits em ordem decrescente
 
-git log -p -1 me traz somente 1 unico commit
+- git log -p -1 me traz somente 1 unico commit
 
-gitk - exibe uma interface gráfica com o visualizador de
+- gitk - exibe uma interface gráfica com o visualizador de
 relatórios
 
-git tag - listar as tags do sistema
+- git tag - listar as tags do sistema
 
-git tag  -a v1.0 -m "versão 1.0' - criando tags v1.0 é o nome da tag e "versão 1.0" o comentário
+- git tag  -a v1.0 -m "versão 1.0' - criando tags v1.0 é o nome da tag e "versão 1.0" o comentário
 
-git log --pretty=oneline - mostrar todos os commits do sistema
+- git log --pretty=oneline - mostrar todos os commits do sistema
 
 criar uma tag para uma versão antiga do sistema - commit antigo do sistema:
 
 = 
 
-git tag -a v00 689e1402d496e1c76f6504e51d449c3c712403a0 -m "versão 0.0"
+- git tag -a v00 689e1402d496e1c76f6504e51d449c3c712403a0 -m "versão 0.0"
 
-v00 é o nome dado ao commit 
+- v00 é o nome dado ao commit 
 
 DELETANDO UMA TAG:
 
-git checkout master - voltar ao padrão do branch master do sistema
+- git checkout master - voltar ao padrão do branch master do sistema
 
-git tag -d v1.0
-__
+- git tag -d v1.0
 
-git init --bare  ... cria um repositório no qual maquinas (pessoas) diferentes poderão acessar e trocar informações
+- git init --bare  ... cria um repositório no qual maquinas (pessoas) diferentes poderão acessar e trocar informações
 
 Removendo arquivos monitorados:
 
-git rm nomedoarquivo.extensao
+- git rm nomedoarquivo.extensao
 
 Usando github:
 
-gerar ssh
+- gerar ssh
 
-ssh-keygen
+Comando para gerar ssh:
 
-pegar a key onde o git indica
+- ssh-keygen
 
-criar chave ssh e colar em
+- pegar a key onde o git indica
 
-public keys
+- criar chave ssh e colar em
 
-clonar o repositório para a minha máquina
+- public keys
 
-adicionar arquivos na pasta e depois a ele (git add .)
+Pegar o link https ou ssh e clonar o repositório para a minha máquina
 
-fazer meu commit 
+- adicionar arquivos na pasta e depois a ele (git add .)
 
-e por fim subir as alterações e novos arquivos
+- fazer commit 
 
-git push origin master
+- e por fim subir as alterações e novos arquivos
 
-..
-
-depois de criar o repositório pegar o link ssh e clonar
+- git push origin master
