@@ -83,3 +83,9 @@ Pegar o link https ou ssh e clonar o repositório para a minha máquina
 - e por fim subir as alterações e novos arquivos
 
 - git push origin master
+
+Forks:
+
+Para manter um repositório forkado atualizado
+
+- git remote add upstream linkdorepositoriooriginal (adicione somente uma vez)
