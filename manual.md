@@ -59,7 +59,6 @@ DELETANDO UMA TAG:
 Removendo arquivos monitorados:
 
 - git rm nomedoarquivo.extensao
-- 
 
  Voltar repositório para um commit especifico:
 git reset --hard "nome da tag dada ao commit, se não sabe criar veja acima."
@@ -93,5 +92,3 @@ Forks:
 Para manter um repositório forkado atualizado
 
 - git remote add upstream linkdorepositoriooriginal (adicione somente uma vez)
-- 
-
