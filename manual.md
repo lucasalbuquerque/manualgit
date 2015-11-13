@@ -1,4 +1,6 @@
-Configurando user name:
+Configurações iniciais..
+
+user name:
 
 - git config --global user.name "Lucas Albuquerque"
 
@@ -21,7 +23,7 @@ Após entrar na pasta do futuro repositório..
 Fazendo commit:
 - git commit -m "Mensagem do commit" 
 
-Ignorar arquivos: criar arquivo .gitignore 
+Ignorar arquivos: criar arquivo .gitignore e dentro desse arquivo escrever o nome com extensão dos arquivos que devem ser ignorados
 
 - git diff - ver o que foi alterado no arquivo
 
@@ -52,9 +54,7 @@ DELETANDO UMA TAG:
 
 - git checkout master - voltar ao padrão do branch master do sistema
 
-- git tag -d v1.0
-
-- git init --bare  ... cria um repositório no qual maquinas (pessoas) diferentes poderão acessar e trocar informações
+- git tag -d nomedatag
 
 Removendo arquivos monitorados:
 
