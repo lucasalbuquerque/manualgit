@@ -92,3 +92,7 @@ Forks:
 Para manter um repositório forkado atualizado
 
 - git remote add upstream linkdorepositoriooriginal (adicione somente uma vez)
+
+Forçar restauração de commit
+
+- git reset --hard HEAD
